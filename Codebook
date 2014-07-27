@@ -1,0 +1,178 @@
+DATA DICTIONARY - run_analysis.R
+
+GROUP		nominal
+	Type of Group
+		TRAIN
+		TEST
+
+SUBJECT		nominal
+	ID of Subject
+		1-30
+
+ACTIVITY	nominal
+	Type of Activity
+		1 WALKING
+		2 WALKING_UPSTAIRS
+		3 WALKING_DOWNSTAIRS
+		4 SITTING
+		5 STANDING
+		6 LAYING
+                     
+tBodyAcc.mean...X		metric               
+
+tBodyAcc.mean...Y       	metric     
+
+tBodyAcc.mean...Z       	metric  
+
+tBodyAcc.std...X        	metric 
+
+tBodyAcc.std...Y        	metric  
+
+tBodyAcc.std...Z        	metric 
+
+tGravityAcc.mean...X    	metric  
+
+tGravityAcc.mean...Y    	metric 
+
+tGravityAcc.mean...Z    	metric  
+
+tGravityAcc.std...X     	metric 
+
+tGravityAcc.std...Y     	metric 
+
+tGravityAcc.std...Z     	metric 
+
+tBodyAccJerk.mean...X   	metric  
+
+tBodyAccJerk.mean...Y   	metric 
+
+tBodyAccJerk.mean...Z   	metric  
+
+tBodyAccJerk.std...X    	metric 
+
+tBodyAccJerk.std...Y    	metric  
+
+tBodyAccJerk.std...Z    	metric 
+
+tBodyGyro.mean...X      	metric  
+
+tBodyGyro.mean...Y      	metric 
+
+tBodyGyro.mean...Z      	metric  
+
+tBodyGyro.std...X       	metric 
+
+tBodyGyro.std...Y       	metric  
+
+tBodyGyro.std...Z       	metric 
+
+tBodyGyroJerk.mean...X  	metric  
+
+tBodyGyroJerk.mean...Y  	metric 
+
+tBodyGyroJerk.mean...Z  	metric  
+
+tBodyGyroJerk.std...X   	metric 
+
+tBodyGyroJerk.std...Y   	metric  
+
+tBodyGyroJerk.std...Z   	metric 
+
+tBodyAccMag.mean..      	metric  
+
+tBodyAccMag.std..       	metric 
+
+tGravityAccMag.mean..   	metric  
+
+tGravityAccMag.std..    	metric 
+
+tBodyAccJerkMag.mean..  	metric  
+
+tBodyAccJerkMag.std..   	metric 
+
+tBodyGyroMag.mean..     	metric  
+
+tBodyGyroMag.std..      	metric 
+
+tBodyGyroJerkMag.mean.. 	metric  
+
+tBodyGyroJerkMag.std..  	metric 
+
+fBodyAcc.mean...X       	metric  
+
+fBodyAcc.mean...Y       	metric 
+
+fBodyAcc.mean...Z       	metric  
+
+fBodyAcc.std...X        	metric 
+
+fBodyAcc.std...Y        	metric  
+
+fBodyAcc.std...Z        	metric 
+
+fBodyAcc.meanFreq...X   	metric  
+
+fBodyAcc.meanFreq...Y   	metric 
+
+fBodyAcc.meanFreq...Z   	metric  
+
+fBodyAccJerk.mean...X   	metric 
+
+fBodyAccJerk.mean...Y  		metric  
+
+fBodyAccJerk.mean...Z   	metric 
+
+fBodyAccJerk.std...X  	  	metric  
+
+fBodyAccJerk.std...Y    	metric 
+
+fBodyAccJerk.std...Z    	metric  
+
+fBodyAccJerk.meanFreq...X    	metric
+
+fBodyAccJerk.meanFreq...Y       metric
+
+fBodyAccJerk.meanFreq...Z      	metric
+
+fBodyGyro.mean...X              metric
+
+fBodyGyro.mean...Y             	metric
+
+fBodyGyro.mean...Z              metric
+
+fBodyGyro.std...X              	metric
+
+fBodyGyro.std...Y               metric
+
+fBodyGyro.std...Z              	metric
+
+fBodyGyro.meanFreq...X          metric
+
+fBodyGyro.meanFreq...Y         	metric
+
+fBodyGyro.meanFreq...Z          metric
+
+fBodyAccMag.mean..             	metric
+
+fBodyAccMag.std..               metric
+
+fBodyAccMag.meanFreq..         	metric
+
+fBodyBodyAccJerkMag.mean..      metric
+
+fBodyBodyAccJerkMag.std..      	metric
+
+fBodyBodyAccJerkMag.meanFreq..  metric
+
+fBodyBodyGyroMag.mean..   	metric     
+
+fBodyBodyGyroMag.std..          metric
+
+fBodyBodyGyroMag.meanFreq..    	metric
+
+fBodyBodyGyroJerkMag.mean..     metric
+
+fBodyBodyGyroJerkMag.std..     	metric
+
+fBodyBodyGyroJerkMag.meanFreq..	metric
+	
